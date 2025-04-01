@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.venv/
+ENV/
+
+# API keys and secrets
+.env
+.env.local
+*.pem
+config.ini
+
+# Media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.mp3
+*.wav
+processed_*.mp4
+
+# Caches and logs
+.cache/
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
